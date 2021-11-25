@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">AppMultiLang</string>
+    <string name="multi_lang_text">This text is in English</string>
+    <string name="tony" translatable="false">abc</string>
+    <string name="lange">this is sample</string>
 </resources>
