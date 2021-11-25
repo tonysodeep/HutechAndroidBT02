@@ -2,6 +2,4 @@
 <resources>
     <string name="app_name">AppMultiLang</string>
     <string name="multi_lang_text"> c\'est du francais </string>
-
-
 </resources>
