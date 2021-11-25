@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">AppMultiLang</string>
-    <string name="multi_lang_text"> c\'est du francais </string>
+    <string name="selected_language">English</string>
+    <string name="language">c\'est du francais</string>
 </resources>
