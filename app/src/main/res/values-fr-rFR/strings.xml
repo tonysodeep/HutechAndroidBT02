@@ -3,5 +3,4 @@
     <string name="app_name">AppMultiLang</string>
     <string name="selected_language">France</string>
     <string name="language">C/est le texte français</string>
-
 </resources>

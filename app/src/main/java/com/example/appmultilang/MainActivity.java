@@ -4,9 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Context;
 import android.content.res.Resources;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
@@ -14,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
     Button btnvi, btneng, btnfr, btnes, btnbr;
     Context context;
     Resources resources;
+    LinearLayout linearLayout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
         btnfr = findViewById(R.id.btnfr);
         btnes = findViewById(R.id.btnes);
         btnbr = findViewById(R.id.btnbr);
+        linearLayout = findViewById(R.id.ll_main_layout);
 
 
 
@@ -38,6 +42,7 @@ public class MainActivity extends AppCompatActivity {
                 context = LocaleHelper.setLocale(MainActivity.this, "vi");
                 resources = context.getResources();
                 messageView.setText(resources.getString(R.string.language));
+                linearLayout.setBackgroundColor(Color.RED);
             }
         });
 
@@ -47,6 +52,8 @@ public class MainActivity extends AppCompatActivity {
                 context = LocaleHelper.setLocale(MainActivity.this, "eng");
                 resources = context.getResources();
                 messageView.setText(resources.getString(R.string.language));
+                linearLayout.setBackgroundColor(Color.GRAY);
+                btnvi.setBackgroundResource(R.drawable.red_background);
 
             }
         });
@@ -56,6 +63,7 @@ public class MainActivity extends AppCompatActivity {
                 context = LocaleHelper.setLocale(MainActivity.this, "fr");
                 resources = context.getResources();
                 messageView.setText(resources.getString(R.string.language));
+                linearLayout.setBackgroundColor(Color.BLUE);
             }
         });
         btnes.setOnClickListener(new View.OnClickListener() {
@@ -64,6 +72,7 @@ public class MainActivity extends AppCompatActivity {
                 context = LocaleHelper.setLocale(MainActivity.this, "es");
                 resources = context.getResources();
                 messageView.setText(resources.getString(R.string.language));
+                linearLayout.setBackgroundColor(Color.YELLOW);
             }
         });
         btnbr.setOnClickListener(new View.OnClickListener() {
@@ -72,6 +81,7 @@ public class MainActivity extends AppCompatActivity {
                 context = LocaleHelper.setLocale(MainActivity.this, "brx");
                 resources = context.getResources();
                 messageView.setText(resources.getString(R.string.language));
+                linearLayout.setBackgroundColor(Color.CYAN);
             }
         });
 

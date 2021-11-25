@@ -1,5 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">AppMultiLang</string>
     <string name="selected_language">English</string>
-    <string name="language">This is English</string>
+    <string name="language">이것은 한국어입니다 </string>
 </resources>

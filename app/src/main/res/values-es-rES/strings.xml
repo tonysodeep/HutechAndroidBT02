@@ -3,5 +3,4 @@
     <string name="app_name">AppMultiLang</string>
     <string name="selected_language">España</string>
     <string name="language">Este es el texto en español</string>
-
 </resources>

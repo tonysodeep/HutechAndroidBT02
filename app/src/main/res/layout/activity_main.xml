@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:layout_margin="10dp"
-    android:background="@color/teal_200"
+    android:id="@+id/ll_main_layout"
     tools:context=".MainActivity"
     android:weightSum="6">
 
@@ -34,7 +34,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:background="@color/design_default_color_error"
+        android:background="@color/cardview_dark_background"
         android:text="VI" />
 
 
