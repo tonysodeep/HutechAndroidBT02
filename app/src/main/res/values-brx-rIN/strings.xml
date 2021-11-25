@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AppMultiLang</string>
+    <string name="selected_language">Brasil</string>
+    <string name="language">Este é o texto brasileiro.l</string>
+
+</resources>

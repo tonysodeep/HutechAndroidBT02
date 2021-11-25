@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AppMultiLang</string>
+    <string name="selected_language">France</string>
+    <string name="language">C/est le texte français</string>
+
+</resources>
